@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "registroactivossanroque",
+    "public": "dist/Activos-Fijos-Cooperativa-SanRoque",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
